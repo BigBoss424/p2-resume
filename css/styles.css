@@ -1,6 +1,71 @@
 /* Your Website Styles */
 
+html{
+	font-family: 'Ubuntu Mono', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
 
+h1{
+	font-family: 'Quicksand', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	text-transform: capitalize;
+	text-decoration: none;
+	letter-spacing: 0.45em;
+	word-spacing: 0.046em;
+	line-height: 1.4;
+	text-align: center;
+
+}
+
+ul#contactinfo{
+	webkit-box-sizing: border-box;
+	margin: 15px 275px;
+	padding: 10px;
+	width: 465px;
+	background-color: blue;
+
+	list-style-type: none;
+	padding-left: 0px;
+	font-family: 'Ubuntu', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 16px;
+	text-transform: none;
+	letter-spacing: 0.05em;
+	
+}
+
+h2{
+	font-weight: 150px;
+	font-style: bold;
+	font-size: 26px;
+	letter-spacing: 0.1em;
+	text-align: center;
+	text-decoration: underline;
+
+}
+
+ul#experience{
+	list-style-type: none;
+}
+
+ul#education{
+	list-style-type: none;
+}
+ul#activities{
+	list-style-type: none;
+}
+ul#listofskills{
+	list-style-type: none;
+}
+
+p#objdescription{
+
+}
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
