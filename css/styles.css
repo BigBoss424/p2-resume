@@ -7,6 +7,11 @@ html{
 	font-family: 'Ubuntu Condensed', sans-serif;
 }
 
+header h1{
+	margin:  54px 0 0 21px;
+	float: left;
+}
+
 h1{
 	font-family: 'Quicksand', sans-serif;
 	font-style: normal;
@@ -19,6 +24,13 @@ h1{
 	line-height: 1.4;
 	text-align: center;
 
+}
+p#objdescription{
+	webkit-box-sizing: border-box;
+	margin: 15px 275px;
+	padding: 10px;
+	width: 465px;
+	background-color: green;
 }
 
 ul#contactinfo{
@@ -51,20 +63,42 @@ h2{
 
 ul#experience{
 	list-style-type: none;
+	webkit-box-sizing: border-box;
+	margin: 15px 275px;
+	padding: 10px;
+	width: 465px;
+	background-color: green;
 }
 
 ul#education{
 	list-style-type: none;
+	webkit-box-sizing: border-box;
+	margin: 15px 275px;
+	padding: 10px;
+	width: 465px;
+	background-color: orange;
 }
 ul#activities{
 	list-style-type: none;
+	webkit-box-sizing: border-box;
+	margin: 15px 275px;
+	padding: 10px;
+	width: 465px;
+	background-color: red;
 }
 ul#listofskills{
 	list-style-type: none;
+	webkit-box-sizing: border-box;
+	margin: 15px 275px;
+	padding: 10px;
+	width: 465px;
+	background-color: steelblue;
 }
 
-p#objdescription{
 
+img{
+	height: 450px;
+	width: 320px;
 }
 /* Show Grid */
 .showgrid {
