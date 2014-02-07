@@ -5,12 +5,9 @@ html{
 	font-family: 'Quicksand', sans-serif;
 	font-family: 'Ubuntu', sans-serif;
 	font-family: 'Ubuntu Condensed', sans-serif;
+	background: #492CB2;
 }
 
-header h1{
-	margin:  54px 0 0 21px;
-	float: left;
-}
 
 h1{
 	font-family: 'Quicksand', sans-serif;
@@ -23,22 +20,122 @@ h1{
 	word-spacing: 0.046em;
 	line-height: 1.4;
 	text-align: center;
+	background: steelblue;
 
 }
+
+/* Navigation styling */
+
+.menu{
+	width: auto;
+	height: 35px;
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 3px 2px 3px #333333;
+	background-color: #B2A317;
+	border-radius: 8px;
+}
+
+.menu ul{
+	height: auto;
+	padding: 8px 0px;
+	margin: 0px;
+}
+
+.menu li{
+	display: inline;
+	padding: 20px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #00F;
+	padding: 8px 8px 8px 8px;
+}
+
+
+.menu a:hover{
+	color: yellow;
+	background-color: green;
+}
+
+#home a{
+	background: url("../img/home.png") no-repeat left center;
+	text-align: right;
+}
+
+#resume a{
+	background: url("../img/resume.png") no-repeat left center;
+}
+
+#bio a{
+	background: url("../img/bio.png") no-repeat left center;
+}
+
+#links a{
+	background: url("../img/links.png") no-repeat left center;
+}
+/*End of Navigation styling */
+
+/* Footer styling */
+
+.footermenu{
+	width: auto;
+	height: 35px;
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 3px 2px 3px #333333;
+	background-color: orange;
+	border-radius: 8px;
+}
+
+.footermenu ul{
+	height: auto;
+	padding: 8px 0px;
+	margin: 0px;
+}
+
+.footermenu li{
+	display: inline;
+	padding: 20px;
+}
+
+.footermenu a{
+	text-decoration: none;
+	color: #00F;
+	padding: 8px 8px 8px 8px;
+}
+
+
+.footermenu a:hover{
+	color: yellow;
+	background-color: green;
+}
+
+
+
+/* End of Footer styling*/
 p#objdescription{
 	webkit-box-sizing: border-box;
 	margin: 15px 275px;
 	padding: 10px;
 	width: 465px;
-	background-color: green;
+	background-color: #FFEE54;
+	border-radius: 10px;
+
 }
 
 ul#contactinfo{
 	webkit-box-sizing: border-box;
-	margin: 15px 275px;
+	margin: 150px 275px;
 	padding: 10px;
 	width: 465px;
-	background-color: blue;
+	background-color: #FFEE54;
+	border-radius: 10px;
 
 	list-style-type: none;
 	padding-left: 0px;
@@ -48,6 +145,7 @@ ul#contactinfo{
 	font-size: 16px;
 	text-transform: none;
 	letter-spacing: 0.05em;
+	border
 	
 }
 
@@ -67,7 +165,8 @@ ul#experience{
 	margin: 15px 275px;
 	padding: 10px;
 	width: 465px;
-	background-color: green;
+	background-color: #FFEE54;
+	border-radius: 10px;
 }
 
 ul#education{
@@ -76,7 +175,8 @@ ul#education{
 	margin: 15px 275px;
 	padding: 10px;
 	width: 465px;
-	background-color: orange;
+	background-color: #FFEE54;
+	border-radius: 10px;
 }
 ul#activities{
 	list-style-type: none;
@@ -84,7 +184,8 @@ ul#activities{
 	margin: 15px 275px;
 	padding: 10px;
 	width: 465px;
-	background-color: red;
+	background-color: #FFEE54;
+	border-radius: 10px;
 }
 ul#listofskills{
 	list-style-type: none;
@@ -92,7 +193,8 @@ ul#listofskills{
 	margin: 15px 275px;
 	padding: 10px;
 	width: 465px;
-	background-color: steelblue;
+	background-color: #FFEE54;
+	border-radius: 10px;
 }
 
 
@@ -102,5 +204,6 @@ img{
 }
 /* Show Grid */
 .showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+	/*background: url("../img/grid-bg.png") repeat-y;*/
+	background-color: #7D4CFF;
 }
