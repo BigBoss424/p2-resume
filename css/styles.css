@@ -20,7 +20,7 @@ h1{
 	word-spacing: 0.046em;
 	line-height: 1.4;
 	text-align: center;
-	background: steelblue;
+	background: #8D6DFF;
 
 }
 
@@ -90,7 +90,7 @@ h1{
 	text-align: center;
 	text-shadow: 3px 2px 3px #333333;
 	background-color: orange;
-	border-radius: 8px;
+	border-radius: 4px;
 }
 
 .footermenu ul{
@@ -135,7 +135,7 @@ ul#contactinfo{
 	padding: 10px;
 	width: 465px;
 	background-color: #FFEE54;
-	border-radius: 10px;
+	border-radius: 6px;
 
 	list-style-type: none;
 	padding-left: 0px;
@@ -145,8 +145,6 @@ ul#contactinfo{
 	font-size: 16px;
 	text-transform: none;
 	letter-spacing: 0.05em;
-	border
-	
 }
 
 h2{
